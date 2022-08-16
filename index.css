@@ -1,0 +1,62 @@
+@import url("https://fonts.google.com/specimen/Poppins?query=Indian+Type+Foundry");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body,
+.container,
+.contant {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  height: 100vh;
+  background-color: #4a98f7;
+}
+.container {
+  width: 450px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  flex-direction: column;
+}
+.container h1 {
+  font-size: 40px;
+  margin: 30px 0;
+}
+.container .contant {
+  width: 100%;
+  justify-content: space-between;
+}
+.container .contant .disable {
+  opacity: 0.5;
+  pointer-events: none;
+}
+.contant .contorls {
+  border: 1px solid rgb(151, 145, 145);
+  width: calc(100% / 2 - 5px);
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.contant,
+.contorls select {
+  outline: 0;
+  border: 0;
+  width: 100%;
+  font-size: 16px;
+}
+.container button {
+  width: 100%;
+  outline: 0;
+  border: 0;
+  background-color: #4a98f7;
+
+  color: #fff;
+  padding: 15px 0;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-size: 20px;
+}
